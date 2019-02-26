@@ -1,0 +1,28 @@
+<!--
+         To DO add various possible formats
+         
+         <staticText>
+            <reportElement x="180" y="0" width="200" height="20"/>
+            <text><![CDATA[Hello World!]]></text>
+          </staticText>
+      -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+	<suite name = "Test Maven Suite">
+	<test name = "Test Maven Testing">
+		<packages>
+		
+			<package name = "Banking.CoreBanking.*">
+			</package>
+			
+		</packages>
+	
+	</test>
+
+</suite>

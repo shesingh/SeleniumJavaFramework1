@@ -1,0 +1,37 @@
+[INFO ] 2019-02-21 15:29:33.112 [main] Log4jDemo - This is information message - Before Method
+[ERROR] 2019-02-21 15:29:33.121 [main] Log4jDemo - This is error message - Before Method
+[WARN ] 2019-02-21 15:29:33.122 [main] Log4jDemo - This is warning message- Before Method
+[FATAL] 2019-02-21 15:29:33.122 [main] Log4jDemo - This is fatal message- Before Method
+[TRACE] 2019-02-21 15:29:33.130 [main] Log4jDemo - This is Trace message - Test 1
+[INFO ] 2019-02-21 15:29:33.130 [main] Log4jDemo - This is information message - Test 1
+[ERROR] 2019-02-21 15:29:33.131 [main] Log4jDemo - This is error message  - Test 1
+[WARN ] 2019-02-21 15:29:33.131 [main] Log4jDemo - This is warning message  - Test 1
+[FATAL] 2019-02-21 15:29:33.131 [main] Log4jDemo - This is fatal message  - Test 1
+[INFO ] 2019-02-21 15:29:33.138 [main] Log4jDemo - This is information message - Before Method
+[ERROR] 2019-02-21 15:29:33.139 [main] Log4jDemo - This is error message - Before Method
+[WARN ] 2019-02-21 15:29:33.139 [main] Log4jDemo - This is warning message- Before Method
+[FATAL] 2019-02-21 15:29:33.140 [main] Log4jDemo - This is fatal message- Before Method
+[INFO ] 2019-02-21 15:29:33.143 [main] Log4jDemo - This is information message - Test 2
+[ERROR] 2019-02-21 15:29:33.144 [main] Log4jDemo - This is error message  - Test 2
+[WARN ] 2019-02-21 15:29:33.144 [main] Log4jDemo - This is warning message  - Test 2
+[FATAL] 2019-02-21 15:29:33.144 [main] Log4jDemo - This is fatal message  - Test 2
+[TRACE] 2019-02-21 15:31:05.282 [main] Log4jDemo - This is Trace message - Test 1
+[INFO ] 2019-02-21 15:31:05.293 [main] Log4jDemo - This is information message - Before Method
+[ERROR] 2019-02-21 15:31:05.293 [main] Log4jDemo - This is error message - Before Method
+[WARN ] 2019-02-21 15:31:05.293 [main] Log4jDemo - This is warning message- Before Method
+[FATAL] 2019-02-21 15:31:05.294 [main] Log4jDemo - This is fatal message- Before Method
+[TRACE] 2019-02-21 15:31:05.301 [main] Log4jDemo - This is Trace message - Test 1
+[INFO ] 2019-02-21 15:31:05.302 [main] Log4jDemo - This is information message - Test 1
+[ERROR] 2019-02-21 15:31:05.302 [main] Log4jDemo - This is error message  - Test 1
+[WARN ] 2019-02-21 15:31:05.302 [main] Log4jDemo - This is warning message  - Test 1
+[FATAL] 2019-02-21 15:31:05.302 [main] Log4jDemo - This is fatal message  - Test 1
+[TRACE] 2019-02-21 15:31:05.312 [main] Log4jDemo - This is Trace message - Test 1
+[INFO ] 2019-02-21 15:31:05.313 [main] Log4jDemo - This is information message - Before Method
+[ERROR] 2019-02-21 15:31:05.313 [main] Log4jDemo - This is error message - Before Method
+[WARN ] 2019-02-21 15:31:05.314 [main] Log4jDemo - This is warning message- Before Method
+[FATAL] 2019-02-21 15:31:05.314 [main] Log4jDemo - This is fatal message- Before Method
+[TRACE] 2019-02-21 15:31:05.317 [main] Log4jDemo - This is Trace message - Test 1
+[INFO ] 2019-02-21 15:31:05.317 [main] Log4jDemo - This is information message - Test 2
+[ERROR] 2019-02-21 15:31:05.317 [main] Log4jDemo - This is error message  - Test 2
+[WARN ] 2019-02-21 15:31:05.318 [main] Log4jDemo - This is warning message  - Test 2
+[FATAL] 2019-02-21 15:31:05.318 [main] Log4jDemo - This is fatal message  - Test 2

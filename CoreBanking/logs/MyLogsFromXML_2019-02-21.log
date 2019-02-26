@@ -1,0 +1,16 @@
+[INFO ] 2019-02-21 21:05:47,255 Log4jDemo.setUP() - This is information message - Before Method
+[ERROR] 2019-02-21 21:05:47,273 Log4jDemo.setUP() - This is error message - Before Method
+[WARN ] 2019-02-21 21:05:47,274 Log4jDemo.setUP() - This is warning message- Before Method
+[FATAL] 2019-02-21 21:05:47,275 Log4jDemo.setUP() - This is fatal message- Before Method
+[INFO ] 2019-02-21 21:05:47,289 Log4jDemo.test1() - This is information message - Test 1
+[ERROR] 2019-02-21 21:05:47,291 Log4jDemo.test1() - This is error message  - Test 1
+[WARN ] 2019-02-21 21:05:47,292 Log4jDemo.test1() - This is warning message  - Test 1
+[FATAL] 2019-02-21 21:05:47,294 Log4jDemo.test1() - This is fatal message  - Test 1
+[INFO ] 2019-02-21 21:05:47,304 Log4jDemo.setUP() - This is information message - Before Method
+[ERROR] 2019-02-21 21:05:47,305 Log4jDemo.setUP() - This is error message - Before Method
+[WARN ] 2019-02-21 21:05:47,306 Log4jDemo.setUP() - This is warning message- Before Method
+[FATAL] 2019-02-21 21:05:47,306 Log4jDemo.setUP() - This is fatal message- Before Method
+[INFO ] 2019-02-21 21:05:47,318 Log4jDemo.test2() - This is information message - Test 2
+[ERROR] 2019-02-21 21:05:47,320 Log4jDemo.test2() - This is error message  - Test 2
+[WARN ] 2019-02-21 21:05:47,320 Log4jDemo.test2() - This is warning message  - Test 2
+[FATAL] 2019-02-21 21:05:47,321 Log4jDemo.test2() - This is fatal message  - Test 2

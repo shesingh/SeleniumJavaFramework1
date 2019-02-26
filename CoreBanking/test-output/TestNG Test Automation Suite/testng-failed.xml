@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG Test Automation Suite]">
+  <test thread-count="5" name="Different TestNG Fecture Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="email" value="shesingh@gmail.com"/>
+    <parameter name="url" value="http://www.gmail.com"/>
+    <classes>
+      <class name="testNBTesing.ParameterTest">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testNBTesing.ParameterTest -->
+    </classes>
+  </test> <!-- Different TestNG Fecture Test(failed) -->
+</suite> <!-- Failed suite [TestNG Test Automation Suite] -->

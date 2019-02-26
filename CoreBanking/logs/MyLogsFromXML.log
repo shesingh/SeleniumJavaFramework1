@@ -1,0 +1,20 @@
+[TRACE] 2019-02-21 21:10:47,859 Log4jDemo.setUP() - This is Trace message - Test 1
+[INFO ] 2019-02-21 21:10:47,875 Log4jDemo.setUP() - This is information message - Before Method
+[ERROR] 2019-02-21 21:10:47,876 Log4jDemo.setUP() - This is error message - Before Method
+[WARN ] 2019-02-21 21:10:47,877 Log4jDemo.setUP() - This is warning message- Before Method
+[FATAL] 2019-02-21 21:10:47,877 Log4jDemo.setUP() - This is fatal message- Before Method
+[TRACE] 2019-02-21 21:10:47,886 Log4jDemo.test1() - This is Trace message - Test 1
+[INFO ] 2019-02-21 21:10:47,887 Log4jDemo.test1() - This is information message - Test 1
+[ERROR] 2019-02-21 21:10:47,888 Log4jDemo.test1() - This is error message  - Test 1
+[WARN ] 2019-02-21 21:10:47,889 Log4jDemo.test1() - This is warning message  - Test 1
+[FATAL] 2019-02-21 21:10:47,890 Log4jDemo.test1() - This is fatal message  - Test 1
+[TRACE] 2019-02-21 21:10:47,896 Log4jDemo.setUP() - This is Trace message - Test 1
+[INFO ] 2019-02-21 21:10:47,898 Log4jDemo.setUP() - This is information message - Before Method
+[ERROR] 2019-02-21 21:10:47,899 Log4jDemo.setUP() - This is error message - Before Method
+[WARN ] 2019-02-21 21:10:47,905 Log4jDemo.setUP() - This is warning message- Before Method
+[FATAL] 2019-02-21 21:10:47,906 Log4jDemo.setUP() - This is fatal message- Before Method
+[TRACE] 2019-02-21 21:10:47,912 Log4jDemo.test2() - This is Trace message - Test 1
+[INFO ] 2019-02-21 21:10:47,912 Log4jDemo.test2() - This is information message - Test 2
+[ERROR] 2019-02-21 21:10:47,913 Log4jDemo.test2() - This is error message  - Test 2
+[WARN ] 2019-02-21 21:10:47,914 Log4jDemo.test2() - This is warning message  - Test 2
+[FATAL] 2019-02-21 21:10:47,914 Log4jDemo.test2() - This is fatal message  - Test 2
