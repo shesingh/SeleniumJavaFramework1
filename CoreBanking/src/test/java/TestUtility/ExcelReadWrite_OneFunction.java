@@ -20,7 +20,7 @@ import org.testng.annotations.Test;
  * Email: snaik.santhosh@gmail.com
  */
 
-public class ExcelReadWrite {
+public class ExcelReadWrite_OneFunction {
 
 	@Test
 	//public static void main(String[] args) throws Exception

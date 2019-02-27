@@ -15,25 +15,27 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
 public class HeadlessChromeDemo {
-	
+
 	public static WebDriver driver;
 	public static String projectPath = System.getProperty("user.dir");
-	
+
 	static String driverPath = projectPath+"/drivers/";
-	
+
 	@Test
 	public static void test() {
-		
+
 		System.setProperty("webdriver.chrome.driver", driverPath+"chromedriver.exe");
-		
+
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
 		options.addArguments("window-size=1280,800");
-		
+
 		driver = new ChromeDriver(options); 
-						
+
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
+
+
 		System.out.println("Started");
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
@@ -44,8 +46,8 @@ public class HeadlessChromeDemo {
 		System.out.println("Completed");
 		driver.close();
 		driver.quit();
-		
-		
+
+
 	}
 
 }

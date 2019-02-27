@@ -26,10 +26,10 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import TestUtility.SetupBase;
-import TestUtility.ExcelUtilities;
+import TestUtility.ExcelRead_Methods;
 //import TestUtility.TestUtilities;
 
-public class DDTestusingExcel extends SetupBase {
+public class DDTestusingExcel_UsingExcelRead_Methods extends SetupBase {
 	
 	@BeforeMethod
 		public void setUP() {
@@ -44,7 +44,7 @@ public class DDTestusingExcel extends SetupBase {
 		String excelFile =filePath+"TestData.xlsx";
 		String sheetName ="Data";
 	 
-		Object data[][] = ExcelUtilities.excelData(excelFile,sheetName);
+		Object data[][] = ExcelRead_Methods.excelData(excelFile,sheetName);
 		return data;
 	}
 	

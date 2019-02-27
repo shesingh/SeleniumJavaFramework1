@@ -16,6 +16,7 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class TestUtilities {
 	
+	
 	/*public static Object[][] excelData(String excelFile, String sheetName) {
 		ExcelUtilities excelSheet = new ExcelUtilities(excelFile, sheetName);
 		int rowCount = excelSheet.getRowCount();
@@ -37,7 +38,26 @@ public class TestUtilities {
 		return data;
 		}*/
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	/*
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
+	 * 
 	public void ScreenShotForfailedStep(String testMethodName){
 		File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	
