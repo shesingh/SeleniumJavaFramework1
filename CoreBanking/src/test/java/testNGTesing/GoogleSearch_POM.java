@@ -12,7 +12,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import TestUtility.SetupBase;
+import library.SetupBase;
 import pageElements_POM.GoogleSearchPage;
 
 public class GoogleSearch_POM extends SetupBase{

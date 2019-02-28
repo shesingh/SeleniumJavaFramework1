@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import TestUtility.SetupBase;
+import library.SetupBase;
 
 public class DummyTest extends SetupBase{
 	

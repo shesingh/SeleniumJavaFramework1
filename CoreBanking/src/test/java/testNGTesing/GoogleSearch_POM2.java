@@ -11,7 +11,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import TestUtility.SetupBase;
+import library.SetupBase;
 import pageElements_POM.GoogleSearchPgElementsAndMethods;
 
 public class GoogleSearch_POM2 extends SetupBase{

@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGTesing.DDTestusingExcel_UsingExcelReadWrite_Methods">
+      <class name="testNGTesing.ScreenShotForFailedTestCase_RerunFailedTest">
         <methods>
           <include name="tearDown"/>
-          <include name="TestReadWriteForEachDataRow"/>
-          <include name="setUP"/>
+          <include name="setup"/>
+          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- testNGTesing.DDTestusingExcel_UsingExcelReadWrite_Methods -->
+      </class> <!-- testNGTesing.ScreenShotForFailedTestCase_RerunFailedTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

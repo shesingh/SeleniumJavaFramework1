@@ -12,7 +12,7 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-import TestUtility.SetupBase;
+import library.SetupBase;
 import pageElements_POM.GoogleSearchPgElementsAndMethods;
 
 public class ExtendReports_ToBeDeletedLater extends SetupBase{

@@ -25,7 +25,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
-import TestUtility.SetupBase;
+import library.SetupBase;
 import pageElements_POM.GoogleSearchPage;
 import pageElements_POM.GoogleSearchPgElementsAndMethods;
 

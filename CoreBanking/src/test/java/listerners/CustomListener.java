@@ -4,7 +4,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import TestUtility.SetupBase;
+import library.SetupBase;
+import library.TestUtilities;
 
 public class CustomListener extends SetupBase implements ITestListener{
 
@@ -23,7 +24,8 @@ public class CustomListener extends SetupBase implements ITestListener{
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println("In Custom Listener");
-		ScreenShotForfailedStep(result.getMethod().getMethodName());
+		//ScreenShotForfailedStep(result.getMethod().getMethodName());
+		TestUtilities.captureScreenShot(driver, result.getMethod().getMethodName());
 		
 	}
 

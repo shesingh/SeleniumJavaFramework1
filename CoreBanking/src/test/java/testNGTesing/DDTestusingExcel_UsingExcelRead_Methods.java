@@ -25,9 +25,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import TestUtility.SetupBase;
-import TestUtility.ExcelRead_Methods;
-//import TestUtility.TestUtilities;
+import library.ExcelRead_Methods;
+import library.SetupBase;
 
 public class DDTestusingExcel_UsingExcelRead_Methods extends SetupBase {
 	
