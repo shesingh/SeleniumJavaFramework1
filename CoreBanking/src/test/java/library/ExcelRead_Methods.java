@@ -4,7 +4,7 @@
  * It also has main function to read excel.
  */
 
-package TestUtility;
+package library;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
