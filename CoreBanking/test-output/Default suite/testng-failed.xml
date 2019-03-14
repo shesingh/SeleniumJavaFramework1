@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGTesing.ScreenShotForFailedTestCase_RerunFailedTest">
+      <class name="testNGTesing.Dropdown_Alert_fileUpload">
         <methods>
-          <include name="tearDown"/>
+          <include name="fileUpload"/>
           <include name="setup"/>
-          <include name="test2"/>
-          <include name="test1"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testNGTesing.ScreenShotForFailedTestCase_RerunFailedTest -->
+      </class> <!-- testNGTesing.Dropdown_Alert_fileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

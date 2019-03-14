@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43750" started-at="2019-02-28T19:47:24Z" finished-at="2019-02-28T19:48:08Z">
+  <suite name="Default suite" duration-ms="41930" started-at="2019-03-14T18:30:42Z" finished-at="2019-03-14T18:31:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43750" started-at="2019-02-28T19:47:24Z" finished-at="2019-02-28T19:48:08Z">
-      <class name="testNGTesing.NoOfLinks">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testNGTesing.NoOfLinks@31a5c39e]" name="setup" is-config="true" duration-ms="12919" started-at="2019-02-28T19:47:24Z" finished-at="2019-02-28T19:47:37Z">
+    <test name="Default test" duration-ms="41930" started-at="2019-03-14T18:30:42Z" finished-at="2019-03-14T18:31:24Z">
+      <class name="testNGTesing.HandleWindowPopUp">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNGTesing.HandleWindowPopUp@31a5c39e]" name="setup" is-config="true" duration-ms="18104" started-at="2019-03-14T18:30:42Z" finished-at="2019-03-14T18:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="main()[pri:0, instance:testNGTesing.NoOfLinks@31a5c39e]" name="main" duration-ms="29547" started-at="2019-02-28T19:47:37Z" finished-at="2019-02-28T19:48:07Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:testNGTesing.HandleWindowPopUp@31a5c39e]" name="main" duration-ms="23751" started-at="2019-03-14T18:31:00Z" finished-at="2019-03-14T18:31:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGTesing.NoOfLinks@31a5c39e]" name="tearDown" is-config="true" duration-ms="1222" started-at="2019-02-28T19:48:07Z" finished-at="2019-02-28T19:48:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNGTesing.HandleWindowPopUp@31a5c39e]" name="tearDown" is-config="true" duration-ms="4" started-at="2019-03-14T18:31:24Z" finished-at="2019-03-14T18:31:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testNGTesing.NoOfLinks -->
+      </class> <!-- testNGTesing.HandleWindowPopUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

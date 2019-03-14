@@ -33,12 +33,12 @@ public class DummyTest extends SetupBase{
 		public static void main() {
 			
 		 System.out.println("DONE");
+		 driver.get("http://www.google.com/");
 			
 		}
 		
 		@AfterMethod
-		   public void tearDown() {
-			driver.close();   
+		   public void tearDown() { 
 			driver.quit();
 			}
 
