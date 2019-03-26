@@ -1,0 +1,13 @@
+Naveen Lab session 11
+
+Jbehave - Java
+little complex
+
+Cucumber - JVM/ Ruby
+Not associated only with Selenium, we can use in web services, unit test
+
+Feature File ...login.feature file (Gherkin keywords  Feature, Given, When, Then, As, But, *) make senarios and senario outline
+Step definition  ...Selenium code + Java + Annotations
+TestRunner ....Junit ....to run feature and generate report/output
+
+
