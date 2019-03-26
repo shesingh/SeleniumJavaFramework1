@@ -1,13 +1,14 @@
 /*
  * This class covers:
  * Method for taking screen shot.
+ * 
+ *
  */
 
 
 package library;
 
 import java.io.File;
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
@@ -16,6 +17,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+
 
 public class TestUtilities
 {
@@ -40,8 +43,6 @@ public class TestUtilities
 	}//ScreenShotForfailedStep function
 
 
-	
-	
 	//Explicit wait  - ClickOn Element when it is available
 	//there are lots of conditions and elementToBeClickable is one of them.
 	public static void clickOn(WebDriver driver, WebElement locator, int timeout) {
@@ -50,5 +51,16 @@ public class TestUtilities
 		locator.click();
 	}
 
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
