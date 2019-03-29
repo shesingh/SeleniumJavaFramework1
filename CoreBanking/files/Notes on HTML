@@ -1,0 +1,100 @@
+Notes on HTML
+
+<html>
+	<head>
+		<title> Span tag demo </title>
+		<style type ="text/css">
+		span
+		{
+			color:red;
+			font-weight:bold;
+			font-style:italic;
+			text-decoration:underline;
+		}
+	</head>
+	
+	<body>
+	
+	<span>Hello World</span>
+	
+	</body>
+
+</html>
+
+
+Div tab - Block level tag - Start from fresh line and take entire available width on page. It divides the page into different section.
+span tab -inline tag - Takes only width which is required to display the content.
+
+Now it is now recommended to apply style (ex. <font color> <u> <i> <b> inside body tag. insted use span tag in body and apply style in head tag
+
+
+
+<ul> - Unordered list tag, block level tag
+<li> - list item tag, block level tag
+
+
+
+JavaScript is client side scripting language and written insidehtml file
+
+Server side language don't send the code to the user but only output
+
+Java and Java Script are different language. 
+
+
+html>
+	<head>
+		<title> demo </title>
+	</head>
+	
+	<body>
+		<script>
+		document.write("Hello World");
+		var myvariable = false;
+		
+		var words = "This is"
+		var morewords = "a sentence";
+		var sentence = words + morewords;
+		document.write(sentence);
+		
+		var lengeth = sentence.length;
+		var result = sentence.substring(2,3)
+		
+		
+		var num1 =5;
+		var num2 =10;
+		var total = num1 + num2;
+		document.write(total);
+		
+		
+		</script>
+		
+	</body>
+
+</html>
+
+
+<input id="q" aria-hidden="true" autocomplete="off" name="q" tabindex="-1" type="url" jsaction="mousedown:ntp.fkbxclk" style="opacity: 0;">
+Above input is tag
+id is property
+"q" is value
+
+
+driver.findElement(By.id("q"))
+Above 
+drive is object
+findElement is method
+By is Class
+id is property
+
+
+Locators:
+1. id --Is always has to be unique as per W3 standard
+2. name ...this is unique
+3. xpath ex. //input[@id='login-signin]
+4. cssSelector  ex. #'login-signin
+5. linkText
+6. partialLinkText
+7. className --This can be duplicate
+8. tagName
+
+
